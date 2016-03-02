@@ -80,3 +80,23 @@ section.users p {
 section.vents {
     width: 100%;
 }
+section#signin {
+    margin-top: 300px;
+}
+form#login input{
+    border-radius: 15px;
+    border: 2px solid #0097A7;
+    width: 60%;
+    margin:auto;
+    height: 30px;
+    padding:3px;
+}
+#getit{
+    border-radius: 15px;
+    width: 45px;
+    height: 100px;
+    background-color: #FF5722;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-decoration: none;
+}
