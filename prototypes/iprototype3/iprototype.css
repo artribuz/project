@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 375px;
+    height: 667px;
+    margin: auto;
+}
+
+body {
+    max-width: 375px;
+    max-height: 667px;
+    margin: auto;
+    background-color: #B2EBF2;
+}
+
+nav {
+    width: 375px;
+    height: 60px;
+}
+
+li {
+    display: inline;
+    padding-right: 50px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    background-color: #00BCD4;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    height: 160px;
+    border-radius: 30px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+form input {
+    border-radius: 15px;
+    border: 2px solid #0097A7;
+    width: 60%;
+    height: 100px;
+}
+
+form input[type="submit"] {
+    border-radius: 15px;
+    width: 45px;
+    height: 30px;
+    background-color: #FF5722;
+    font-family: 'Raleway', sans-serif;
+}
+
+section.users {
+    height: 100px;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+section.hide {
+    visibility: hidden;
+}
+
+section.show {
+    visibility: visible;
+}
+
+button {
+    border-radius: 15px;
+    width: 50px;
+    height: 22px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border: 1px solid #0097A7;
+    background-color: #FF5722;
+    font-size: 10pt;
+    color: white;
+}
+
+button.report {
+    position: relative;
+    right: 100px;
+}
+
+button.reply {
+    position: relative;
+    left: 100px;
+}
+
+section.users p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 10pt;
+    padding: 10px;
+    /*background-color: white;
+    border-radius: 15px;*/
+}
+
+section#overlay {
+    width: 375px;
+    position: absolute;
+    top: 25%;
+    background-color: rgba(50, 50, 50, .8);
+    visibility: hidden;
+}
+
+section#overlay p {
+    font-size: 12pt;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: white;
+}
+
+section#overlay nav#close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    padding: 10px;
+}
+
+form.respond input {
+    border-radius: 15px;
+    border: 2px solid #0097A7;
+    width: 60%;
+    height: 20px;
+}

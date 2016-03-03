@@ -1,0 +1,51 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 375px;
+    height: 667px;
+    margin: auto;
+    background-color: #B2EBF2;
+}
+section {
+    background-color: #00BCD4;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    height: 170px;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 300px;
+    padding-top: 10px;
+}
+
+form input {
+    border-radius: 15px;
+    border: 2px solid #0097A7;
+    width: 60%;
+    height: 30px;
+    padding: 3px;
+}
+form{
+    margin-bottom: 20px;
+}
+form label{
+    font-size: 15pt;
+    color:white;
+}
+
+section a:link {
+    background-color: #FF5722;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 10pt;
+    color:white;
+}
+section a:visited{
+    color:white;
+    
+}
