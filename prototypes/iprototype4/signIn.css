@@ -8,6 +8,17 @@ body {
     margin: auto;
     background-color: #B2EBF2;
 }
+
+header{
+    text-align: center;
+    margin:auto;
+}
+img {
+    margin-top: 100px;
+    width: 200px;
+    height: 205px;
+}
+
 section {
     background-color: #00BCD4;
     text-align: center;
@@ -15,7 +26,7 @@ section {
     height: 170px;
     border-radius: 30px;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 00px;
     padding-top: 10px;
 }
 
@@ -26,12 +37,14 @@ form input {
     height: 30px;
     padding: 3px;
 }
-form{
+
+form {
     margin-bottom: 20px;
 }
-form label{
+
+form label {
     font-size: 15pt;
-    color:white;
+    color: white;
 }
 
 section a:link {
@@ -41,9 +54,9 @@ section a:link {
     text-decoration: none;
     font-family: 'Raleway';
     font-size: 10pt;
-    color:white;
+    color: white;
 }
-section a:visited{
-    color:white;
-    
+
+section a:visited {
+    color: white;
 }
