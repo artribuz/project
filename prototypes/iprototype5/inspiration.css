@@ -78,3 +78,7 @@ li.tabz a {
     text-align: center;
     text-decoration: none;
 }
+
+nav img#info {
+    width:20px;
+}

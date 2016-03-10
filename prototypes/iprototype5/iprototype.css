@@ -188,6 +188,10 @@ img {
     height: 50px;
 }
 
+nav img#info {
+    width:20px;
+}
+
 div#tabs ul {
     margin-bottom: 15px;
     margin-top: 15px;
