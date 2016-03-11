@@ -29,8 +29,11 @@ section form input {
     height: 100px;
 }
 
-section.usersReply form input{
-    height:20px;
+section.usersReply1 form input,
+section.usersReply2 form input,
+section.usersReply3 form input,
+section.usersReply4 form input {
+    height: 20px;
 }
 
 section.users {
@@ -42,7 +45,10 @@ section.users {
     margin-bottom: 10px;
 }
 
-section.usersReply p#hide {
+section.usersReply1 p#hide,
+section.usersReply2 p#hide,
+section.usersReply3 p#hide,
+section.usersReply4 p#hide {
     visibility: hidden;
 }
 
@@ -73,23 +79,35 @@ button.reply {
     margin-top: 0px;
 }
 
-button.reply2{
+button.reply2 {
     position: relative;
     left: 100px;
 }
 
-section.usersReply button.reply{
-    position:relative;
+section.usersReply1 button.reply,
+section.usersReply2 button.reply,
+section.usersReply3 button.reply,
+section.usersReply4 button.reply {
+    position: relative;
     right: 100px;
 }
 
-button.viewReplies {
+button.viewReplies1 {
     text-align: center;
     border-radius: 15px;
     width: 100px;
     height: 22px;
     margin-top: 0px;
 }
+
+button.viewReplies2 {
+    text-align: center;
+    border-radius: 15px;
+    width: 100px;
+    height: 22px;
+    margin-top: 0px;
+}
+
 button.viewFavorites {
     text-align: center;
     border-radius: 15px;
@@ -97,6 +115,7 @@ button.viewFavorites {
     height: 22px;
     margin-top: 0px;
 }
+
 section.users p {
     font-family: 'Droid Sans', sans-serif;
     font-size: 10pt;
@@ -108,12 +127,16 @@ section.users p {
 section.usersReplies {
     font-family: 'Droid Sans', sans-serif;
     font-size: 10pt;
-    height: 20px;
+    height: auto;
     width: 99%;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
-section.usersReply{
+section.usersReply1,
+section.usersReply2,
+section.usersReply3,
+section.usersReply4 {
     font-family: 'Droid Sans', sans-serif;
     font-size: 10pt;
     height: 80px;
@@ -121,7 +144,7 @@ section.usersReply{
     margin-bottom: 10px;
 }
 
-section.usersFavorites{
+section.usersFavorites {
     font-family: 'Droid Sans', sans-serif;
     font-size: 10pt;
     height: 20px;
@@ -189,7 +212,7 @@ img {
 }
 
 nav img#info {
-    width:20px;
+    width: 20px;
 }
 
 div#tabs ul {
